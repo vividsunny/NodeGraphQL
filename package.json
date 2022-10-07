@@ -1,0 +1,32 @@
+{
+  "name": "nodedemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ravi Pambhar",
+  "license": "ISC",
+  "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
+    "apollo-server-express": "^1.4.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "express-handlebars": "^6.0.6",
+    "graphql": "^16.6.0",
+    "graphql-tools": "^8.3.6",
+    "handlebars": "^4.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.6.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20",
+    "notarealdb": "^0.2.2",
+    "socket.io": "^4.5.2"
+  }
+}
